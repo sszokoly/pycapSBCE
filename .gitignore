@@ -1,0 +1,17 @@
+.vscode/
+.__pycache__/
+logs/
+old/
+sipp/
+build/
+dist/
+.idea/
+*.log
+*.pyc
+*.egg-info
+asbce.py
+pcapparser.py
+sipmessage.py
+tcpdump.py
+tracker.py
+winmgr.py
