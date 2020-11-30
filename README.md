@@ -29,7 +29,7 @@ This tool is aiming to address the shortcomings mentioned above by:
 ## How it works
 
 It makes use of the standard log files and commands available to any system administrator in Linux shell with root access.
-SIP call and media information are obtained from `tracesbc_sip` log files. Flow counters are gathered from the output of `showflow` command. Finally the majority of RTP stream statistics except those mentioned above - are extracted using `tshark`'s `rtp,streams` functionality.
+SIP call and media information are obtained from `tracesbc_sip` log files. Flow counters are gathered from the output of `showflow` command. Finally the majority of RTP stream statistics except those mentioned above - are extracted using `tshark`'s `rtp,streams` functionality. It was developed on ASBCE version 7.2.2 but it is supposed to work on version 6.3 and above.
 
 ## Options
 
@@ -53,3 +53,8 @@ SIP call and media information are obtained from `tracesbc_sip` log files. Flow 
 ## Demo
 
 ![alt text](./images/pycapSBCE.gif?raw=true "pycapSBCE")
+
+
+## Disclaimer
+
+The author in no way provides any warranty, express or implied, towards the content of pycapSBCE which was not developed or endorsed by the vendor of ASBCE. It is the user's responsibility to determine the value and quality of this tool which is intended for testing purposes and for use by person at their own discretion and risk.
