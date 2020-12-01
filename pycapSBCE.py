@@ -16,7 +16,8 @@
 from __future__ import print_function
 import bz2
 import cPickle
-import curses, curses.textpad
+import curses
+import curses.textpad
 import fcntl
 import gzip
 import locale
