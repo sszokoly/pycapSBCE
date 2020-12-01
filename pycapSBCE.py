@@ -380,7 +380,7 @@ class TracesbcSIPReader(object):
     message details and yields Msg class instance.
     """
     LOGDIR = "/archive/log/tracesbc/tracesbc_sip"
-    TRACESBCSIP_GLOB = "tracesbc_sip_[1-9][0-9][0-9]*[!_1][!_]"
+    TRACESBCSIP_GLOB = "tracesbc_sip_[1-9][0-9][0-9]*[!_][!_]"
 
     def __init__(self, logfiles=None, logdir=None, methods=None,
                  ignore_fnu=False):

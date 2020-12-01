@@ -5,6 +5,7 @@ old/
 sipp/
 build/
 dist/
+modules/
 .idea/
 *.log
 *.pyc
