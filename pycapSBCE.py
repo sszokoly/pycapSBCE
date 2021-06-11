@@ -579,7 +579,7 @@ class ASBCE(object):
         r"(?P<InSrcIP>[\d+.]*):",
         r"(?P<InSrcPort>\d+) -> ",
         r"(?P<InDstIP>[\d+.]*):",
-        r"(?P<InDstPort>\d+)\] OUT ",
+        r"(?P<InDstPort>\d+)\] .*OUT ",
         r"(?P<OutIf>\d+) RELAY ",
         r"(?P<OutSrcIP>[\d+.]*):",
         r"(?P<OutSrcPort>\d+) -> ",
