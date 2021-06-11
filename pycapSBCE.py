@@ -68,7 +68,7 @@ MIN_TSHARK_UPDATE_SECS = 2  # min noof secs between pcap analysis updates
 TERM = os.environ["TERM"]
 LOCALE = locale.getlocale()
 DEBUG_LOG = "pycapSBCE.log"
-VERSION = 0.1
+VERSION = 0.2
 
 ##############################################################################
 #                                   MODULES                                  #
